@@ -1,0 +1,78 @@
+{
+  "rf_1000_best": {
+    "name": "Random Forest (Best Overall)",
+    "nEstimators": 500,
+    "maxFeatures": "sqrt",
+    "trainSize": 1000,
+    "accuracy": 0.9356,
+    "recallHam": 0.961,
+    "recallSpam": 0.8964,
+    "precisionHam": 0.9345,
+    "precisionSpam": 0.9374,
+    "f1Ham": 0.9476,
+    "f1Spam": 0.9164,
+    "cm": [
+      2097,
+      85,
+      147,
+      1272
+    ],
+    "trainTime": 0.42
+  },
+  "rf_500_best": {
+    "name": "Random Forest (Best 500)",
+    "nEstimators": 5000,
+    "maxFeatures": "sqrt",
+    "trainSize": 500,
+    "accuracy": 0.92,
+    "recallHam": 0.9546,
+    "recallSpam": 0.8668,
+    "precisionHam": 0.9168,
+    "precisionSpam": 0.9255,
+    "f1Ham": 0.9353,
+    "f1Spam": 0.8952,
+    "cm": [
+      2083,
+      99,
+      189,
+      1230
+    ],
+    "trainTime": 3.723
+  },
+  "dt_1000_best": {
+    "name": "Decision Tree (1000) - DT_1000_depth10",
+    "trainSize": 1000,
+    "accuracy": 0.8967,
+    "recallHam": 0.9253,
+    "recallSpam": 0.8527,
+    "precisionHam": 0.9062,
+    "precisionSpam": 0.8813,
+    "f1Ham": 0.9156,
+    "f1Spam": 0.8668,
+    "cm": [
+      2019,
+      163,
+      209,
+      1210
+    ],
+    "trainTime": 0.01
+  },
+  "dt_500_best": {
+    "name": "Decision Tree (500) - DT_500_depth10",
+    "trainSize": 500,
+    "accuracy": 0.8728,
+    "recallHam": 0.9088,
+    "recallSpam": 0.8175,
+    "precisionHam": 0.8845,
+    "precisionSpam": 0.8536,
+    "f1Ham": 0.8965,
+    "f1Spam": 0.8351,
+    "cm": [
+      1983,
+      199,
+      259,
+      1160
+    ],
+    "trainTime": 0.005
+  }
+}
